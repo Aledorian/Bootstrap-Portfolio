@@ -85,15 +85,19 @@ strong{
 }
 
 #form{
-  padding: 20px;
-  border: 1px solid grey;
+  padding: 50px;
+  border-right: 1px solid grey;
 }
 
 .form-control{
-  background-color:rgba(255, 255, 255, 0.25) !important;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
+  background-color:rgba(255, 255, 255, 0) !important;
+  height: 30px;
+  font-size: 19px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  box-shadow: none!important;
+  border-radius: 0px;
 }
 
 #contact{
@@ -196,9 +200,45 @@ textarea{
   width: auto;
   height: 20px;
   margin-right: 20px;
+  background-color: black;
+  color: white;
+  border: 0px;
+  font-size: 18px;
 }
 
 #Light{
   width: auto;
   height: 20px;
+  border: 0px;
+  background-color: lightgrey;
+  font-size: 18px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(107, 107, 107, 0.5); !important;
+}
+
+.form-control:-moz-placeholder {
+  color: rgba(107, 107, 107, 0.5); !important;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(107, 107, 107, 0.5); !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba(107, 107, 107, 0.5); !important;
+}
+
+.form-control:focus{
+    outline: none!important;
+    box-shadow: none!important;
+    border-bottom: 1px solid #CC1100!important;
+}
+
+#btnEnvoyer{
+  width: 50px;
+  height: 50px;
+  float: right;
+  border: 1px solid rgba(107, 107, 107, 0.5);
 }

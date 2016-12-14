@@ -3,127 +3,106 @@
     src: url("../fonts/Reliable DEMO.otf");
 }
 
-body{
-  background-color: rgb(77, 76, 80);
+body {
+    background-color: rgb(77, 76, 80);
 }
 
-#home{
-  margin-top: 10%;
-  height: 200px;
+#home {
+    margin-top: 10%;
+    height: 200px;
 }
 
-#about{
-  margin-top: 10%;
+#about {
+    margin-top: 10%;
 }
 
-.section{
-  background-color: rgba(165, 171, 155, 0.5);
+.section {
+    background-color: rgba(165, 171, 155, 0.5);
 }
 
-
-h2{
+h2 {
     color: white;
-    font-size : 32px;
+    font-size: 32px;
     padding: 5%;
     font-family: Reliable Demo
 }
 
-.dropdown-menu{
-  background-color: rgb(165, 171, 155 );
-  color: #8b0000;
-  }
-
-.dropdown-menu li a{
-  color: white;
+.dropdown-menu {
+    background-color: rgb(165, 171, 155);
+    color: #8b0000;
 }
 
-.navbarText{
-  color: white !important;
+.dropdown-menu li a {
+    color: white;
 }
 
-#about{
-  padding: 15px
+.navbarText {
+    color: white !important;
 }
 
-p{
-  color: white;
-  text-indent: 50px;
-  line-height: 30px;
-  font-size: 20px;
+#about {
+    padding: 15px
 }
 
-#carousel-example-generic{
-  margin-top: 10%;
-  height: 654px;
+p {
+    color: white;
+    text-indent: 50px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
-.imageCarousel{
-  width: 100%;
-  height: 654px;
+#carousel-example-generic {
+    margin-top: 10%;
+    height: 654px;
 }
 
-h4{
-  color: white;
+.imageCarousel {
+    width: 100%;
+    height: 654px;
 }
 
-strong{
-  color: #8b0000;
+h4 {
+    color: white;
 }
 
-.carousel-control{
-  height: 565px;
+strong {
+    color: #8b0000;
 }
 
-#form{
-  padding: 20px;
+.carousel-control {
+    height: 565px;
 }
 
-#contact{
-  margin-bottom: 50px;
+#form {
+    padding: 20px;
 }
 
-#infoContact ul{
-  font-size: 22;
-  color: white;
-  margin-left: 3%;
-  line-height: 50px;
-  list-style: none;
-
+#contact {
+    margin-bottom: 50px;
 }
 
-#bandeauFooter{
-  width: 100%;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.75);;
-  margin-top: 25px;
-  display: flex;
-  color: rgba(255, 255, 255, 0.5);
-  justify-content: space-around;
-  align-items: center;
+#infoContact ul {
+    font-size: 22;
+    color: white;
+    margin-left: 3%;
+    line-height: 50px;
+    list-style: none;
 }
 
-#bandeauFooter a{
-  color: rgba(255, 255, 255, 0.5);
+#bandeauFooter {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    ;
+    margin-top: 25px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.5);
+    justify-content: space-around;
+    align-items: center;
 }
 
-#btnFacebook{
-  width: auto;
-  height: auto;
-}
-
-#imgFacebook{
-  width: 32px;
-  height: 32px;
-}
-
-#btnTwitter{
-  width: auto;
-  height: auto;
-}
-
-#imgTwitter{
-  width: 32px;
-  height: 32px;
+#bandeauFooter a {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #fixedbutton {
@@ -131,61 +110,100 @@ strong{
     bottom: 0px;
     left: 0px;
     color: white;
-
 }
 
-textarea{
-  resize: none  ;
+textarea {
+    resize: none;
 }
 
-#formBTN{
+#formBTN {
+    float: right;
+}
+
+#showMe {
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 25%;
+}
+
+#progress {
+    margin-top: 50px;
+    margin-left: 5%;
+    opacity: 0;
+}
+
+#html-css {
+    background-color: #A6A6A6;
+}
+
+#js {
+    background-color: #A6A6A6;
+}
+
+#bootstrap {
+    background-color: #A6A6A6;
+}
+
+#form {
+    padding: 50px;
+    border-right: 1px solid white;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0) !important;
+    height: 30px;
+  	font-size: 19px;
+  	border: none;
+  	border-bottom: 1px solid black;
+  	margin-left: 20px;
+    box-shadow: none!important;
+    color:white;
+    border-radius: 0px;
+  }
+
+#Dark {
+    width: auto;
+    height: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+}
+
+#Light {
+    width: auto;
+    height: 20px;
+    border: 0px;
+    font-size: 18px;
+}
+
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.form-control:focus{
+    outline: none!important;
+    box-shadow: none!important;
+    border-bottom: 1px solid #8B0000!important;
+}
+
+#btnEnvoyer{
+  width: 50px;
+  height: 50px;
   float: right;
-}
-
-
-#showMe{
-  margin-top: 4%;
-  margin-left: 25%;
-  width: 25%;
-}
-
-#progress{
-  margin-top: 50px;
-  margin-left: 5%;
-  opacity: 0;
-}
-
-#html-css{
-  background-color: #A6A6A6;
-}
-
-#js{
-  background-color: #A6A6A6;
-}
-
-#bootstrap{
-  background-color: #A6A6A6;
-}
-
-#form{
-  padding: 20px;
-  border: 1px solid grey;
-}
-
-.form-control{
-  background-color:rgba(255, 255, 255, 0.75) !important;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#Dark{
-  width: auto;
-  height: 20px;
-  margin-right: 20px;
-}
-
-#Light{
-  width: auto;
-  height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
