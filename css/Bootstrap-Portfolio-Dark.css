@@ -14,6 +14,7 @@ body {
 
 #about {
     margin-top: 10%;
+    padding: 15px
 }
 
 .section {
@@ -38,10 +39,6 @@ h2 {
 
 .navbarText {
     color: white !important;
-}
-
-#about {
-    padding: 15px
 }
 
 p {
@@ -87,6 +84,7 @@ strong {
     margin-left: 3%;
     line-height: 50px;
     list-style: none;
+    padding-top: 50px;
 }
 
 #bandeauFooter {
@@ -105,6 +103,11 @@ strong {
     color: rgba(255, 255, 255, 0.5);
 }
 
+#textFooter{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 #fixedbutton {
     position: fixed;
     bottom: 0px;
@@ -118,12 +121,21 @@ textarea {
 
 #formBTN {
     float: right;
+    background-color: transparent !important;
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #showMe {
     margin-top: 4%;
     margin-left: 25%;
     width: 25%;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 24px
 }
 
 #progress {
@@ -133,15 +145,15 @@ textarea {
 }
 
 #html-css {
-    background-color: #A6A6A6;
+    background-color: #E44D26;
 }
 
 #js {
-    background-color: #A6A6A6;
+    background-color: #E5A228;
 }
 
 #bootstrap {
-    background-color: #A6A6A6;
+    background-color: #5D4381;
 }
 
 #form {
@@ -152,14 +164,15 @@ textarea {
 .form-control {
     background-color: rgba(255, 255, 255, 0) !important;
     height: 30px;
-  	font-size: 19px;
-  	border: none;
-  	border-bottom: 1px solid black;
-  	margin-left: 20px;
+    font-size: 19px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
     box-shadow: none!important;
-    color:white;
+    color: white;
     border-radius: 0px;
-  }
+    text-indent: 30px;
+}
 
 #Dark {
     width: auto;
@@ -169,6 +182,7 @@ textarea {
     color: white;
     border: 0px;
     font-size: 18px;
+    padding-bottom: 25px;
 }
 
 #Light {
@@ -176,34 +190,123 @@ textarea {
     height: 20px;
     border: 0px;
     font-size: 18px;
+    padding-bottom: 25px;
 }
 
-
 .form-control::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5)!important;
+    color: rgba(255, 255, 255, 0.5)!important;
 }
 
 .form-control:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5)!important;
+    color: rgba(255, 255, 255, 0.5)!important;
 }
 
 .form-control::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5)!important;
+    color: rgba(255, 255, 255, 0.5)!important;
 }
 
 .form-control:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5)!important;
+    color: rgba(255, 255, 255, 0.5)!important;
 }
 
-.form-control:focus{
+.form-control:focus {
     outline: none!important;
     box-shadow: none!important;
     border-bottom: 1px solid #8B0000!important;
 }
 
-#btnEnvoyer{
-  width: 50px;
-  height: 50px;
-  float: right;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+#showMe:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.fa-paper-plane {
+    background-color: transparent !important;
+}
+
+#formBTN:hover {
+    color: #8B0000
+}
+
+#simplon {
+    margin-top: 10%;
+}
+
+.progressT {
+    text-align: center;
+}
+
+.Name {
+    position: relative;
+}
+
+.Name .fa-user {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    height: 20px
+}
+
+.Prename {
+    position: relative;
+}
+
+.Prename .fa-user {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    height: 20px
+}
+
+.Phone {
+    position: relative;
+}
+
+.Phone .fa-phone {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    height: 20px
+}
+
+.Mail {
+    position: relative;
+}
+
+.Mail .fa-envelope {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    height: 20px
+}
+
+.Message {
+    position: relative;
+}
+
+.Message .fa-comment {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    height: 20px
 }
