@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html" />
     <meta name="description" content="Portfolio A.Legrand apprenti webdeveleopp" />
     <title>Portfolio 2.0</title>
@@ -58,19 +59,21 @@
                 <li><a class="navbarText" href="#contact"> Contact </a></li>
 
             </ul>
+            <div id="swapCSS">
+                <ul class="nav navbar-right">
+                    <li><button type="button" name="button" id="Light">Light</button></li>
+                    <li><button type="button" name="button" id="Dark">Dark</button></li>
+                </ul>
+            </div>
 
-            <ul class="nav navbar-right">
-                <li><button type="button" name="button" id="Light">Light</button></li>
-                <li><button type="button" name="button" id="Dark">Dark</button></li>
-            </ul>
         </div>
     </nav>
     <!-- _____________________________FIN NAVBAR____________________________ -->
 
     <!-- _____________________________HOME__________________________________ -->
-    <div class="container">
-        <div class="row block-center text-center">
-            <div class="col-md-12 section" id="home">
+      <div class="container">
+          <div class="row block-center text-center">
+              <div class="col-md-12 section" id="home">
                 <h2>Bienvenue sur mon portefolio. Passez une bonne visite.</h2>
             </div>
         </div>
@@ -82,7 +85,7 @@
                 <div class="row">
                     <img class="image-responsive col-md-2 col-xs-12" src="images/moi.jpg" alt="Photo de moi" />
                     <p class="col-md-10 col-xs-12">
-                        Je me présente je suis <strong>LEGRAND ALEDORIAN</strong>, apprenti <strong>web developper</strong>, j'ai commencé la codage en novembre 2016 par le biais de la formation Simplon, j'ai appris a utiliser : <strong>HTML/CSS, Javascript</strong>                        ainsi que <strong>Bootscrap</strong>. En dehors de ce domaine, je comprend et parle l'anglais. Je suis passioné par de nombreux domaines diverse : <strong>les jeux videos, la musique, le cinéma, l'histoire et l'art.</strong>
+                        Je me présente je suis <strong>LEGRAND ALEDORIAN</strong>, apprenti <strong>web developper</strong>, j'ai commencé la codage en novembre 2016 par le biais de la formation Simplon où j'ai appris a utiliser : <strong>HTML/CSS, Javascript</strong>                        ainsi que <strong>Bootscrap</strong>. En dehors de ce domaine, je comprend et parle l'anglais. Je suis passioné par de nombreux domaines: <strong>les jeux videos, la musique, le cinéma, l'histoire et l'art.</strong>
                     </p>
                     <button class="col-md-12 block-center" type="button" name="button" id="showMe">Compétences <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
                 </div>
@@ -188,55 +191,55 @@
         <!-- _____________________________FIN CAROUSSEL___________________________________ -->
 
         <!-- _____________________________CONTACT_________________________________________ -->
-            <div class="section" id="contact">
-                <div class="row">
-                    <div class="col-md-6" id="form">
-                        <div class="Name">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            <input type="text" class="form-control" placeholder="Entrer votre nom">
-                        </div>
-                        <br>
-                        <!-- <div class="Prename">
+        <div class="section" id="contact">
+            <div class="row">
+                <div class="col-md-6" id="form">
+                    <div class="Name">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre nom">
+                    </div>
+                    <br>
+                    <!-- <div class="Prename">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             <input type="text" class="form-control" placeholder="Entrer votre prenom">
                         </div>
                         <br> -->
-                        <div class="Phone">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <input type="text" class="form-control" placeholder="Entrer votre n° de telephone">
-                        </div>
-                        <br>
-                        <div class="Mail  ">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <input type="text" class="form-control" placeholder="Entrer votre adresse mail">
-                        </div>
-                        <br>
-                        <div class="Message">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <textarea class="form-control" rows="8" placeholder="Entrer votre message."></textarea>
-                        </div>
-                        <br>
-                        <button id="formBTN" type="button" name="button"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
+                    <div class="Phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre n° de telephone">
                     </div>
+                    <br>
+                    <div class="Mail  ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre adresse mail">
+                    </div>
+                    <br>
+                    <div class="Message">
+                        <i class="fa fa-comment" aria-hidden="true"></i>
+                        <textarea class="form-control" rows="8" placeholder="Entrer votre message."></textarea>
+                    </div>
+                    <br>
+                    <button id="formBTN" type="button" name="button"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
+                </div>
 
-                    <div class="col-md-6" id="infoContact">
-                        <ul>
-                            <li>Tel : 07 70 45 56 05</li>
-                            <li>Mail : aledorianlegrand@gmail.com</li>
-                            <li>Adresse : 40 rue du Bras d'or <br> 62200 Boulogne sur mer</li>
-                        </ul>
-                        <div id="simplon">
-                            <img src="images/simplon.png" alt="Logo Simplon Boulogne" />
-                        </div>
+                <div class="col-md-6" id="infoContact">
+                    <ul>
+                        <li>Tel : 07 70 45 56 05</li>
+                        <li>Mail : aledorianlegrand@gmail.com</li>
+                        <li>Adresse : 40 rue du Bras d'or <br> 62200 Boulogne sur mer</li>
+                    </ul>
+                    <div id="simplon">
+                        <img src="images/simplon.png" alt="Logo Simplon Boulogne" />
                     </div>
                 </div>
             </div>
+        </div>
 
     </div>
     <!-- _____________________________FIN CONTACT_________________________________________ -->
 
     <footer>
-        <div id="bandeauFooter">
+        <div class="col-md-12 text-center" id="bandeauFooter">
             <p id="textFooter">©copyright A. LEGRAND</p>
             <div>
                 <a href="" target="_blank">

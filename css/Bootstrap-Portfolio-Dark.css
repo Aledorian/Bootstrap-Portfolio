@@ -1,312 +1,317 @@
-@font-face {
-    font-family: "Reliable DEMO";
-    src: url("../fonts/Reliable DEMO.otf");
-}
+  @font-face {
+      font-family: "Reliable DEMO";
+      src: url("../fonts/Reliable DEMO.otf");
+  }
 
-body {
-    background-color: rgb(77, 76, 80);
-}
+  body {
+      background-color: rgb(77, 76, 80);
+  }
 
-#home {
-    margin-top: 10%;
-    height: 200px;
-}
+  .section {
+      background-color: rgba(165, 171, 155, 0.5);
+  }
+  /*NAVBAR*/
 
-#about {
-    margin-top: 10%;
-    padding: 15px
-}
+  .dropdown-menu {
+      background-color: rgb(165, 171, 155);
+      color: #8b0000;
+  }
 
-.section {
-    background-color: rgba(165, 171, 155, 0.5);
-}
+  .dropdown-menu li a {
+      color: white;
+  }
 
-h2 {
-    color: white;
-    font-size: 32px;
-    padding: 5%;
-    font-family: Reliable Demo
-}
+  .navbarText {
+      color: white !important;
+  }
 
-.dropdown-menu {
-    background-color: rgb(165, 171, 155);
-    color: #8b0000;
-}
+  #Dark {
+      width: auto;
+      height: 20px;
+      margin: 15px;
+      margin-left: 0px;
+      background-color: #4D4C50;
+      color: white;
+      border: 0px;
+      font-size: 18px;
+      padding-bottom: 25px;
+  }
 
-.dropdown-menu li a {
-    color: white;
-}
+  #Light {
+      width: auto;
+      height: 20px;
+      border: 0px;
+      font-size: 18px;
+      padding-bottom: 25px;
+      margin: 15px;
+  }
 
-.navbarText {
-    color: white !important;
-}
+  #swapCSS ul li {
+      display: inline;
+  }
+  /*FIN NAVBAR*/
+  /*HOME*/
 
-p {
-    color: white;
-    text-indent: 50px;
-    line-height: 30px;
-    font-size: 20px;
-}
+  #home {
+      margin-top: 10%;
+      height: 200px;
+  }
 
-#carousel-example-generic {
-    margin-top: 10%;
-    height: 654px;
-}
+  h2 {
+      color: white;
+      font-size: 32px;
+      padding: 5%;
+      font-family: Reliable Demo
+  }
+  /*FIN HOME*/
+  /*ABOUT*/
 
-.imageCarousel {
-    width: 100%;
-    height: 654px;
-}
+  #about {
+      margin-top: 10%;
+      padding: 15px
+  }
 
-h4 {
-    color: white;
-}
+  p {
+      color: white;
+      text-indent: 50px;
+      line-height: 30px;
+      font-size: 20px;
+  }
 
-strong {
-    color: #8b0000;
-}
+  strong {
+      color: #8b0000;
+  }
 
-.carousel-control {
-    height: 565px;
-}
+  #showMe {
+      margin-top: 4%;
+      margin-left: 25%;
+      width: 25%;
+      background-color: transparent;
+      box-shadow: none;
+      border: 1px solid transparent;
+      color: white;
+      font-size: 24px
+  }
 
-#form {
-    padding: 20px;
-}
+  #progress {
+      margin-top: 50px;
+      margin-left: 5%;
+      opacity: 0;
+  }
 
-#contact {
-    margin-bottom: 50px;
-}
+  #html-css {
+      background-color: #E44D26;
+  }
 
-#infoContact ul {
-    font-size: 22;
-    color: white;
-    margin-left: 3%;
-    line-height: 50px;
-    list-style: none;
-    padding-top: 50px;
-}
+  #js {
+      background-color: #E5A228;
+  }
 
-#bandeauFooter {
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.75);
-    ;
-    margin-top: 25px;
-    display: flex;
-    color: rgba(255, 255, 255, 0.5);
-    justify-content: space-around;
-    align-items: center;
-}
+  #bootstrap {
+      background-color: #5D4381;
+  }
 
-#bandeauFooter a {
-    color: rgba(255, 255, 255, 0.5);
-}
+  #showMe:hover {
+      background-color: white;
+      color: #797C76;
+  }
 
-#textFooter{
-  color: rgba(255, 255, 255, 0.5);
-}
+  #showMe:focus {
+      outline: none!important;
+      box-shadow: none!important;
+  }
+  /*FIN ABOUT*/
+  /*PROJETS*/
 
+  #carousel-example-generic {
+      margin-top: 10%;
+      height: 654px;
+  }
 
-#fixedbutton {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    color: white;
-}
+  .imageCarousel {
+      width: 100%;
+      height: 654px;
+  }
 
-textarea {
-    resize: none;
-}
+  h4 {
+      color: white;
+  }
 
-#formBTN {
-    float: right;
-    background-color: transparent !important;
-    box-shadow: none;
-    border: 1px solid rgba(255, 255, 255, 0);
-    color: rgba(255, 255, 255, 0.5);
-}
+  .carousel-control {
+      height: 565px;
+  }
+  /*FIN PROJETS*/
+  /*CONTACT*/
+  /*FORMULAIRE*/
 
-#showMe {
-    margin-top: 4%;
-    margin-left: 25%;
-    width: 25%;
-    background-color: transparent;
-    box-shadow: none;
-    border: 1px solid transparent;
-    color: white;
-    font-size: 24px
-}
+  #form {
+      padding: 20px;
+  }
 
-#progress {
-    margin-top: 50px;
-    margin-left: 5%;
-    opacity: 0;
-}
+  .Name {
+      position: relative;
+  }
 
-#html-css {
-    background-color: #E44D26;
-}
+  .Name .fa-user {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      font-size: 15px;
+      color: white;
+      border-right: 1px solid white;
+      padding-right: 15px;
+      height: 20px
+  }
 
-#js {
-    background-color: #E5A228;
-}
+  .Phone {
+      position: relative;
+  }
 
-#bootstrap {
-    background-color: #5D4381;
-}
+  .Phone .fa-phone {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      font-size: 15px;
+      color: white;
+      border-right: 1px solid white;
+      padding-right: 15px;
+      height: 20px
+  }
 
-#form {
-    padding: 50px;
-    border-right: 1px solid white;
-}
+  .Mail {
+      position: relative;
+  }
 
-.form-control {
-    background-color: rgba(255, 255, 255, 0) !important;
-    height: 30px;
-    font-size: 19px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin-left: 20px;
-    box-shadow: none!important;
-    color: white;
-    border-radius: 0px;
-    text-indent: 30px;
-}
+  .Mail .fa-envelope {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      font-size: 15px;
+      color: white;
+      border-right: 1px solid white;
+      padding-right: 15px;
+      height: 20px
+  }
 
-#Dark {
-    width: auto;
-    height: 20px;
-    margin-right: 20px;
-    background-color: black;
-    color: white;
-    border: 0px;
-    font-size: 18px;
-    padding-bottom: 25px;
-}
+  .Message {
+      position: relative;
+  }
 
-#Light {
-    width: auto;
-    height: 20px;
-    border: 0px;
-    font-size: 18px;
-    padding-bottom: 25px;
-}
+  .Message .fa-comment {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      font-size: 15px;
+      color: white;
+      border-right: 1px solid white;
+      padding-right: 15px;
+      height: 20px
+  }
 
-.form-control::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.5)!important;
-}
+  textarea {
+      resize: none;
+  }
 
-.form-control:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.5)!important;
-}
+  #formBTN {
+      float: right;
+      background-color: transparent !important;
+      box-shadow: none;
+      border: 1px solid rgba(255, 255, 255, 0);
+      color: rgba(255, 255, 255, 0.5);
+  }
 
-.form-control::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.5)!important;
-}
+  #form {
+      padding: 50px;
+      border-right: 1px solid white;
+  }
 
-.form-control:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.5)!important;
-}
+  .form-control {
+      background-color: rgba(255, 255, 255, 0) !important;
+      height: 30px;
+      font-size: 19px;
+      border: none;
+      border-bottom: 1px solid black;
+      margin-left: 20px;
+      box-shadow: none!important;
+      color: white;
+      border-radius: 0px;
+      text-indent: 30px;
+  }
 
-.form-control:focus {
-    outline: none!important;
-    box-shadow: none!important;
-    border-bottom: 1px solid #8B0000!important;
-}
+  .form-control::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.5)!important;
+  }
 
-#showMe:focus {
-    outline: none!important;
-    box-shadow: none!important;
-}
+  .form-control:-moz-placeholder {
+      color: rgba(255, 255, 255, 0.5)!important;
+  }
 
-.fa-paper-plane {
-    background-color: transparent !important;
-}
+  .form-control::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.5)!important;
+  }
 
-#formBTN:hover {
-    color: #8B0000
-}
+  .form-control:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.5)!important;
+  }
 
-#simplon {
-    margin-top: 10%;
-}
+  .form-control:focus {
+      outline: none!important;
+      box-shadow: none!important;
+      border-bottom: 1px solid #8B0000!important;
+  }
 
-.progressT {
-    text-align: center;
-}
+  .fa-paper-plane {
+      background-color: transparent !important;
+  }
 
-.Name {
-    position: relative;
-}
+  #formBTN:hover {
+      color: #8B0000
+  }
+  /*FIN FORMULAIRE*/
 
-.Name .fa-user {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    font-size: 15px;
-    color: white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    height: 20px
-}
+  #contact {
+      margin-bottom: 50px;
+  }
 
-.Prename {
-    position: relative;
-}
+  #infoContact ul {
+      font-size: 22;
+      color: white;
+      margin-left: 3%;
+      line-height: 50px;
+      list-style: none;
+      padding-top: 50px;
+  }
 
-.Prename .fa-user {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    font-size: 15px;
-    color: white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    height: 20px
-}
+  #simplon {
+      margin-top: 10%;
+  }
+  /*FIN CONTACT*/
+  /*FOOTER*/
 
-.Phone {
-    position: relative;
-}
+  #bandeauFooter {
+      width: 100%;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.75);
+      margin-top: 25px;
+      display: flex;
+      color: rgba(255, 255, 255, 0.5);
+      justify-content: center;
+      align-items: center;
+  }
 
-.Phone .fa-phone {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    font-size: 15px;
-    color: white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    height: 20px
-}
+  #bandeauFooter a {
+      color: rgba(255, 255, 255, 0.5);
+      margin-left: 75px
+  }
 
-.Mail {
-    position: relative;
-}
+  #textFooter {
+      color: rgba(255, 255, 255, 0.5);
+  }
+  /*FIN FOOTER*/
 
-.Mail .fa-envelope {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    font-size: 15px;
-    color: white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    height: 20px
-}
-
-.Message {
-    position: relative;
-}
-
-.Message .fa-comment {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    font-size: 15px;
-    color: white;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    height: 20px
-}
+  #fixedbutton {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      color: white;
+  }
