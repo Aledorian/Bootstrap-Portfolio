@@ -12,6 +12,11 @@
   }
   /*NAVBAR*/
 
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+   }
+
   .dropdown-menu {
       background-color: rgb(165, 171, 155);
       color: #8b0000;
@@ -112,7 +117,7 @@
   }
 
   #showMe:hover {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.75);
       color: #797C76;
   }
 
@@ -306,12 +311,21 @@
 
   #textFooter {
       color: rgba(255, 255, 255, 0.5);
+      padding-top: 10px;
   }
   /*FIN FOOTER*/
 
   #fixedbutton {
       position: fixed;
-      bottom: 0px;
-      left: 0px;
+      bottom: 10px;
+      left: 10px;
       color: white;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: none;
+  }
+
+  .fa-chevron-up {
+    color: white
   }

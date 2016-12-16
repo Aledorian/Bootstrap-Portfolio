@@ -10,7 +10,6 @@
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="sheet">
     <link rel="stylesheet" href="css/Bootstrap-Portfolio-Dark.css" id="lightT" media="screen" title="sheet">
-    <!-- <link rel="stylesheet" href="css/Bootstrap-Portfolio-Light.css" media="screen" title="sheet"> -->
     <script src="https://use.fontawesome.com/f8550a24d8.js"></script>
 </head>
 
@@ -19,12 +18,16 @@
     <!-- _____________________________NAVBAR________________________ -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
+
+          <!-- PARTIE GAUCHE -->
+
             <ul class="nav navbar-nav">
 
                 <li><a class="navbarText" href="#home"> Home </a></li>
 
                 <li><a class="navbarText" href="#anchorAbout"> About </a></li>
 
+                <!-- DROPDOWN -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle navbarText" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projet <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -55,16 +58,23 @@
                         <li><a href="pages/js/déplacement/index.html" target="_blank">élement controlé avec touche du clavier</a></li>
                     </ul>
                 </li>
-
+                <!-- FIN DROPDOWN -->
                 <li><a class="navbarText" href="#contact"> Contact </a></li>
 
             </ul>
+
+            <!-- FIN PARTIE GAUCHE -->
+
+            <!-- PARTIE DROITE -->
+
             <div id="swapCSS">
                 <ul class="nav navbar-right">
                     <li><button type="button" name="button" id="Light">Light</button></li>
                     <li><button type="button" name="button" id="Dark">Dark</button></li>
                 </ul>
             </div>
+
+            <!-- FIN PARTIE DROITE -->
 
         </div>
     </nav>
@@ -87,6 +97,9 @@
                     <p class="col-md-10 col-xs-12">
                         Je me présente je suis <strong>LEGRAND ALEDORIAN</strong>, apprenti <strong>web developper</strong>, j'ai commencé la codage en novembre 2016 par le biais de la formation Simplon où j'ai appris a utiliser : <strong>HTML/CSS, Javascript</strong>                        ainsi que <strong>Bootscrap</strong>. En dehors de ce domaine, je comprend et parle l'anglais. Je suis passioné par de nombreux domaines: <strong>les jeux videos, la musique, le cinéma, l'histoire et l'art.</strong>
                     </p>
+
+                    <!-- BARRE COMPETENCE -->
+
                     <button class="col-md-12 block-center" type="button" name="button" id="showMe">Compétences <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
                 </div>
 
@@ -107,6 +120,9 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- FIN BARRE COMPETENCE -->
+
             </div>
         </div>
         <!-- _____________________________FIN ABOUT__________________________________ -->
@@ -193,17 +209,13 @@
         <!-- _____________________________CONTACT_________________________________________ -->
         <div class="section" id="contact">
             <div class="row">
+              <!-- FORMULAIRE -->
                 <div class="col-md-6" id="form">
                     <div class="Name">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <input type="text" class="form-control" placeholder="Entrer votre nom">
                     </div>
                     <br>
-                    <!-- <div class="Prename">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            <input type="text" class="form-control" placeholder="Entrer votre prenom">
-                        </div>
-                        <br> -->
                     <div class="Phone">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <input type="text" class="form-control" placeholder="Entrer votre n° de telephone">
@@ -222,6 +234,10 @@
                     <button id="formBTN" type="button" name="button"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
                 </div>
 
+                <!-- FIN FORMULAIRE -->
+
+                <!-- CONTACT -->
+
                 <div class="col-md-6" id="infoContact">
                     <ul>
                         <li>Tel : 07 70 45 56 05</li>
@@ -232,6 +248,9 @@
                         <img src="images/simplon.png" alt="Logo Simplon Boulogne" />
                     </div>
                 </div>
+
+                <!-- FIN CONTACT -->
+
             </div>
         </div>
 
@@ -253,10 +272,11 @@
             </div>
         </div>
     </footer>
-
-    <a href="#home" id="fixedbutton">
-        <i class="fa fa-arrow-up" aria-hidden="true">  go to top  </i>
-    </a>
+    <button id="fixedbutton"  type="button" name="button" >
+      <a href="#home">
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+      </a>
+    </button>
 
 </body>
 <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>

@@ -14,6 +14,11 @@ body {
 
 /*NAVBAR*/
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
 .dropdown-menu {
     background-color: #c0c0c0 !important;
     color: #8b0000;
@@ -323,7 +328,7 @@ textarea {
     margin-top: 25px;
     display: flex;
     color: #6B6B6B;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: white
 }
@@ -333,10 +338,12 @@ textarea {
 
 #bandeauFooter a {
     color: #6B6B6B;
+    margin-left: 75px;
 }
 
 #textFooter {
     color: #6B6B6B;
+    padding-top: 10px;
 }
 
 
@@ -344,8 +351,14 @@ textarea {
 
 #fixedbutton {
     position: fixed;
-    bottom: 0px;
-    left: 0px;
-    color: black;
-    text-align: center;
+    bottom: 10px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #6B6B6B;
+    border: none;
+}
+
+.fa-chevron-up {
+  color: white;
 }
