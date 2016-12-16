@@ -29,6 +29,12 @@ body {
     background-color: #C0C0C0 !important;
 }
 
+.dropdown-menu li a:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+
 .dropdown-menu li {
     background-color: #C0C0C0;
 }
