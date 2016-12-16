@@ -26,6 +26,20 @@
       color: white;
   }
 
+  #projetBTN{
+    background-color: transparent;
+    border: 0px;
+    margin-top: 22%
+  }
+
+  #projetBTN a:hover{
+      text-decoration: none;
+  }
+
+  #projetBTN a:focus{
+      text-decoration: none;
+  }
+
   .navbarText {
       color: white !important;
   }
@@ -40,6 +54,13 @@
       border: 0px;
       font-size: 18px;
       padding-bottom: 25px;
+      border: 1px solid lightgray
+  }
+
+  #Dark:focus{
+    box-shadow: none!important;
+    outline: none!important;
+
   }
 
   #Light {
@@ -49,6 +70,13 @@
       font-size: 18px;
       padding-bottom: 25px;
       margin: 15px;
+      border: 1px solid #4D4C50
+  }
+
+  #Light:focus{
+    box-shadow: none!important;
+    outline: none!important;
+
   }
 
   #swapCSS ul li {

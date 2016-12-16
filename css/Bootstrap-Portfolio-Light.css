@@ -25,17 +25,12 @@ body {
 }
 
 .dropdown-menu li a {
-    color: white;
+    color: black;
     background-color: #C0C0C0 !important;
 }
 
 .dropdown-menu li {
     background-color: #C0C0C0;
-}
-
-.divider {
-    background-color: #C0C0C0 !important;
-    color: white!important;
 }
 
 .navbarText {
@@ -44,10 +39,24 @@ body {
 
 .navbar * {
     background-color: #FFF
+  }
+
+  .divider {
+      background-color: #000!important;
+  }
+
+  #projetBTN{
+    background-color: transparent;
+    border: 0px;
+  margin-top: 22%
 }
 
-.divider {
-    background-color: #FFF!important;
+#projetBTN a:hover{
+    text-decoration: none;
+}
+
+#projetBTN a:focus{
+    text-decoration: none;
 }
 
 #Dark {
@@ -60,6 +69,12 @@ body {
     padding-bottom: 25px;
     margin: 15px;
     margin-left: 0px;
+    border: 1px solid lightgrey;
+}
+
+#Dark:focus{
+    box-shadow: none !important;
+    outline: none!important;
 }
 
 #Light {
@@ -70,6 +85,12 @@ body {
     font-size: 18px;
     padding-bottom: 25px;
     margin: 15px;
+    border: 1px solid #4D4C50
+}
+
+#Light:focus{
+  box-shadow: none!important;
+  outline: none!important;
 }
 
 #swapCSS ul li {
