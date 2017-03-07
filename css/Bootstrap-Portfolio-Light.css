@@ -154,21 +154,9 @@ strong {
 }
 
 #progress {
-    margin-top: 50px;
-    margin-left: 5%;
+    margin-left: 0%;
     opacity: 0;
-}
-
-#html-css {
-    background-color: #E44D26;
-}
-
-#js {
-    background-color: #E5A228;
-}
-
-#bootstrap {
-    background-color: #5D4381;
+    width: 100%;
 }
 
 #showMe:focus {
@@ -388,4 +376,51 @@ textarea {
 
 .fa-chevron-up {
   color: white;
+}
+
+/*HIGHCHARTS GAUGE*/
+@import 'https://code.highcharts.com/css/highcharts.css';
+#js .highcharts-background {
+  fill: transparent !important;
+}
+
+#js .highcharts-axis-title {
+  fill: gray!important;
+}
+
+#html-css .highcharts-background {
+  fill: transparent !important;
+}
+
+#html-css .highcharts-axis-title {
+  fill: gray!important;
+}
+
+#bootstrap .highcharts-background {
+  fill: transparent !important;
+}
+
+#bootstrap .highcharts-axis-title {
+  fill: gray!important;
+}
+
+#PHP .highcharts-background {
+  fill: transparent !important;
+}
+
+#PHP .highcharts-axis-title {
+  fill: gray!important;
+}
+
+.highcharts-yaxis-grid .highcharts-grid-line {
+  display: none;
+}
+
+.highcharts-plot-band .highcharts-pane {
+  margin: 0;
+}
+
+.highcharts-yaxis-labels text {
+  color: gray !important;
+  fill: gray !important;
 }

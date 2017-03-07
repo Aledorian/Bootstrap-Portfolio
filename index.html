@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="sheet">
     <link rel="stylesheet" href="css/Bootstrap-Portfolio-Dark.css" id="lightT" media="screen" title="sheet">
     <script src="https://use.fontawesome.com/f8550a24d8.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+
+    </script>
 </head>
 
 <body>
@@ -19,7 +24,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
 
-          <!-- PARTIE GAUCHE -->
+            <!-- PARTIE GAUCHE -->
 
             <ul class="nav navbar-nav">
 
@@ -29,7 +34,7 @@
 
                 <!-- DROPDOWN -->
                 <li class="dropdown">
-                    <button  id="projetBTN"type="button" name="button"><a href="#carousel" class="dropdown-toggle navbarText" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projet <span class="caret"></span></a></button>
+                    <button id="projetBTN" type="button" name="button"><a href="#carousel" class="dropdown-toggle navbarText" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projet <span class="caret"></span></a></button>
 
                     <ul class="dropdown-menu">
 
@@ -79,9 +84,9 @@
     <!-- _____________________________FIN NAVBAR____________________________ -->
 
     <!-- _____________________________HOME__________________________________ -->
-      <div class="container">
-          <div class="row block-center text-center">
-              <div class="col-md-12 section" id="home">
+    <div class="container">
+        <div class="row block-center text-center">
+            <div class="col-md-12 section" id="home">
                 <h2>Bienvenue sur mon portefolio. Passez une bonne visite.</h2>
             </div>
         </div>
@@ -100,28 +105,19 @@
 
                     <button class="col-md-12 block-center" type="button" name="button" id="showMe">Compétences <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
                 </div>
-
-                <div class="row" id="progress">
-                    <div class="progress section col-md-3 ">
-                        <div class="progress-bar progress-bar-striped active progressT" id="html-css" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                            <span class="progressT">HTML / CSS</span>
-                        </div>
-                    </div>
-                    <div class="progress section col-md-3 col-md-offset-1 text-center">
-                        <div class="progress-bar progress-bar-striped active progressT" id="js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                            <span class="progressT">Javascript</span>
-                        </div>
-                    </div>
-                    <div class="progress section col-md-3 col-md-offset-1 text-center">
-                        <div class="progress-bar progress-bar-striped active progressT" id="bootstrap" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
-                            <span>Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FIN BARRE COMPETENCE -->
-
             </div>
+
+            <div class="row section" id="progress">
+              <div>
+                <div id="html-css" class='col-md-3' style="height:150px;"></div>
+                <div id="js" class='col-md-3' style="height:150px;"></div>
+                <div id="bootstrap" class='col-md-3' style="height:150px;"></div>
+                <div id="PHP" class='col-md-3' style="height:150px;"></div>
+              </div>
+            </div>
+
+            <!-- FIN BARRE COMPETENCE -->
+
         </div>
         <!-- _____________________________FIN ABOUT__________________________________ -->
 
@@ -207,7 +203,7 @@
         <!-- _____________________________CONTACT_________________________________________ -->
         <div class="section" id="contact">
             <div class="row">
-              <!-- FORMULAIRE -->
+                <!-- FORMULAIRE -->
                 <div class="col-md-6" id="form">
                     <div class="Name">
                         <i class="fa fa-user" aria-hidden="true"></i>
@@ -243,7 +239,7 @@
                         <li>Adresse : 40 rue du Bras d'or <br> 62200 Boulogne sur mer</li>
                     </ul>
                     <div id="simplon">
-                        <img src="images/simplon.png" alt="Logo Simplon Boulogne"/>
+                        <img src="images/simplon.png" alt="Logo Simplon Boulogne" />
                     </div>
                 </div>
 
@@ -270,7 +266,7 @@
             </div>
         </div>
     </footer>
-    <button id="fixedbutton"  type="button" name="button" >
+    <button id="fixedbutton" type="button" name="button">
       <a href="#home">
           <i class="fa fa-chevron-up" aria-hidden="true"></i>
       </a>

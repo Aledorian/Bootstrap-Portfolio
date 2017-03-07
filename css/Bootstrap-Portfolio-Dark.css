@@ -15,7 +15,7 @@
   .dropdown:hover .dropdown-menu {
       display: block;
       margin-top: 0;
-   }
+  }
 
   .dropdown-menu {
       background-color: rgb(165, 171, 155);
@@ -26,17 +26,17 @@
       color: white;
   }
 
-  #projetBTN{
-    background-color: transparent;
-    border: 0px;
-    margin-top: 22%
+  #projetBTN {
+      background-color: transparent;
+      border: 0px;
+      margin-top: 22%
   }
 
-  #projetBTN a:hover{
+  #projetBTN a:hover {
       text-decoration: none;
   }
 
-  #projetBTN a:focus{
+  #projetBTN a:focus {
       text-decoration: none;
   }
 
@@ -57,10 +57,9 @@
       border: 1px solid lightgray
   }
 
-  #Dark:focus{
-    box-shadow: none!important;
-    outline: none!important;
-
+  #Dark:focus {
+      box-shadow: none!important;
+      outline: none!important;
   }
 
   #Light {
@@ -73,10 +72,9 @@
       border: 1px solid #4D4C50
   }
 
-  #Light:focus{
-    box-shadow: none!important;
-    outline: none!important;
-
+  #Light:focus {
+      box-shadow: none!important;
+      outline: none!important;
   }
 
   #swapCSS ul li {
@@ -127,21 +125,10 @@
   }
 
   #progress {
-      margin-top: 50px;
-      margin-left: 5%;
+      margin-left: 0%;
       opacity: 0;
-  }
-
-  #html-css {
-      background-color: #E44D26;
-  }
-
-  #js {
-      background-color: #E5A228;
-  }
-
-  #bootstrap {
-      background-color: #5D4381;
+      background-color: rgba(165, 171, 155, 0.5);
+      width: 100%;
   }
 
   #showMe:hover {
@@ -174,7 +161,9 @@
       height: 565px;
   }
   /*FIN PROJETS*/
+
   /*CONTACT*/
+  
   /*FORMULAIRE*/
 
   #form {
@@ -355,5 +344,52 @@
   }
 
   .fa-chevron-up {
-    color: white
+      color: white
+  }
+
+    /*HIGHCHARTS GAUGE*/
+  @import 'https://code.highcharts.com/css/highcharts.css';
+  #js .highcharts-background {
+      fill: transparent !important;
+  }
+
+  #js .highcharts-axis-title {
+      fill: white!important;
+  }
+
+  #html-css .highcharts-background {
+      fill: transparent !important;
+  }
+
+  #html-css .highcharts-axis-title {
+      fill: white!important;
+  }
+
+  #bootstrap .highcharts-background {
+      fill: transparent !important;
+  }
+
+  #bootstrap .highcharts-axis-title {
+      fill: white!important;
+  }
+
+  #PHP .highcharts-background {
+      fill: transparent !important;
+  }
+
+  #PHP .highcharts-axis-title {
+      fill: white!important;
+  }
+
+  .highcharts-yaxis-grid .highcharts-grid-line {
+      display: none;
+  }
+
+  .highcharts-plot-band .highcharts-pane {
+      margin: 0;
+  }
+
+  .highcharts-yaxis-labels text {
+      color: white !important;
+      fill: white !important;
   }
