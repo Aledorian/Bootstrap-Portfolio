@@ -20,7 +20,68 @@
 
 <body>
 
-    
+    <!-- _____________________________NAVBAR________________________ -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+
+            <!-- PARTIE GAUCHE -->
+
+            <ul class="nav navbar-nav">
+
+                <li><a class="navbarText" href="#home"> Home </a></li>
+
+                <li><a class="navbarText" href="#anchorAbout"> About </a></li>
+
+                <!-- DROPDOWN -->
+                <li class="dropdown">
+                    <button id="projetBTN" type="button" name="button"><a href="#carousel" class="dropdown-toggle navbarText" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projet <span class="caret"></span></a></button>
+
+                    <ul class="dropdown-menu">
+
+                        <li class="text-center">Bootstrap</li>
+                        <br>
+                        <li><a href="pages/Bootstrap/Chall 1/index.html" target="_blank">Reproduction site</a></li>
+                        <br>
+                        <li><a href="pages/Bootstrap/Exo 1/index.html" target="_blank">Premier projet</a></li>
+
+                        <li role="separator" class="divider separator"></li>
+
+                        <li class="text-center">HTML & CSS</li>
+                        <br>
+                        <li><a href="pages/html-css/Site-Final/index.html" target="_blank">SIte fictif fleuriste</a></li>
+
+                        <li role="separator" class="divider"></li>
+
+                        <li class="text-center">Javascript</li>
+                        <br>
+                        <li><a href="pages/js/StoryTeller/index.html" target="_blank">StoryTeller</a></li>
+                        <br>
+                        <li><a href="pages/js/anim/index.html" target="_blank">Simulation gravité</a></li>
+                        <br>
+                        <li><a href="pages/js/déplacement/index.html" target="_blank">élement controlé avec touche du clavier</a></li>
+                    </ul>
+                </li>
+                <!-- FIN DROPDOWN -->
+                <li><a class="navbarText" href="#contact"> Contact </a></li>
+
+            </ul>
+
+            <!-- FIN PARTIE GAUCHE -->
+
+            <!-- PARTIE DROITE -->
+
+            <div id="swapCSS">
+                <ul class="nav navbar-right">
+                    <li><button type="button" name="button" id="Light">Light</button></li>
+                    <li><button type="button" name="button" id="Dark">Dark</button></li>
+                </ul>
+            </div>
+
+            <!-- FIN PARTIE DROITE -->
+
+        </div>
+    </nav>
+    <!-- _____________________________FIN NAVBAR____________________________ -->
 
     <!-- _____________________________HOME__________________________________ -->
     <div class="container">
